@@ -1,0 +1,16 @@
+{
+    "environmentType": "local",
+    "envConfig": {
+        "local": {
+            "port": 3000,
+            "securePort": 443,
+            "logLevel": "DEBUG",
+            "customerKey": "YZuqhxcNqosBiAFCTpKTP48iW",
+            "customerSecret": "SSViold8Zz9AYsDBJoerBXiU4Mi3xMwxSGiJM8Sb7AhB9o8K1B",
+            "callbackURL": "http://127.0.0.1:3000/auth/twitter/callback",
+            "profileAPI": "https://api.twitter.com/1.1/users/show.json?screen_name=Shailesh_test",
+            "followerListAPI" : "https://api.twitter.com/1.1/followers/list.json?count=100&screen_name=twitterapi",
+            "tokenAPI": "https://api.twitter.com/oauth2/token"
+        }
+    }
+}

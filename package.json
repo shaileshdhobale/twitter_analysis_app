@@ -1,0 +1,16 @@
+{
+  "name": "twitter_analysis_app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "lodash": "^4.17.4",
+    "log4js": "^1.1.0",
+    "passport-twitter": "~1.0.4",
+    "passport": "~0.3.2",
+    "request": "~2.81.0"
+  }
+}
